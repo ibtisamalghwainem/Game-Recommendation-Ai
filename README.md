@@ -1,6 +1,6 @@
 # Game Recommendation AI
 
-![Intro Screen](interface/الواجهة.jpg)
+![Intro Screen](interface/Intro_Screen.jpg)
 
 > **ML GAME RECOMMENDATION SYSTEM**  
 
