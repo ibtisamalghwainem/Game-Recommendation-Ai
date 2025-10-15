@@ -64,6 +64,38 @@ A curated list of games based on cluster similarity:
 
 ## Notebooks
 - `notebooks/Game_Recommendation_System.ipynb`: Full Colab notebook with preprocessing, feature engineering, clustering, and evaluation
+## How It Works
+
+The ML Game Recommendation System follows a modular pipeline:
+
+1. **User Behavior Analysis**  
+   - Tracks playtime, purchase history, and genre diversity  
+   - Calculates metrics like average playtime and purchase ratio
+
+2. **Feature Encoding & Normalization**  
+   - One-hot encoding for top 100 games  
+   - Label encoding for behaviors and game names  
+   - StandardScaler for numeric features
+
+3. **Unsupervised Clustering**  
+   - K-Means and DBSCAN group users based on behavior patterns  
+   - Each user is assigned to a cluster representing similar preferences
+
+4. **Recommendation Logic**  
+   - For each user, the system suggests games popular within their cluster  
+   - Recommendations are filtered by genre, category, and interaction type
+
+5. **Interface Output**  
+   - User selects their ID  
+   - System displays profile summary and personalized game suggestions
+
+## 🔗 Live Demo
+
+Try the interactive recommendation system here:
+
+▶️ [Launch Demo](https://5d1e9c5b5d5a5d5b.gradio.live)
+
+> This demo allows users to select their ID, view their profile, and receive personalized game recommendations based on behavioral clustering.
 
 ## Author & Contact
 
