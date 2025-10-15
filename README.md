@@ -1,9 +1,40 @@
 # Game Recommendation AI
-Unsupervised AI system for recommending games based on user behavior, playtime, and genre diversity.
+
+![Intro Screen](interface/الواجهة.jpg)
+
+> **ML GAME RECOMMENDATION SYSTEM**  
+
+A professional and modern interface to get personalized game recommendations.
+
+---
 
 ## Overview
 This project builds an unsupervised recommendation system for video games using clustering techniques.  
 It analyzes user behavior, playtime, genre diversity, and interaction patterns to group similar users and suggest relevant games.
+
+---
+
+## System Interface
+
+### 👤 User Profile View
+![User Profile](interface/game.jpg)
+
+Displays user-specific stats:
+- User ID
+- Total Play Hours
+- Purchase Count
+- User Type
+
+---
+
+### 🎯 Recommended Games
+![Recommendations Tab](interface/game1.jpg)
+
+A curated list of games based on cluster similarity:
+- Game name, genre, and style
+- Note: “This is a popular game in your cluster”
+
+---
 
 ## Dataset Features
 - **UserID**: Unique identifier for each user
